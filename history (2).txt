@@ -1,0 +1,16 @@
+   0 nano /tmp/myscrypt.sh
+   1 chmod 744 /tmp/myscrypt.sh 
+   2 mv /tmp/myscrypt.sh /bin
+   3 history > /tmp/history.txt
+
+
++  содержимое скрипта 
+   
+   #!/bin/bash
+  mkdir -p /tmp/alex
+  touch /tmp/alex/dz.txt
+  date >> /tmp/alex/dz.txt
+  echo "it works!" >> /tmp/alex/dz.txt
+  cp /tmp/alex/dz.txt /opt
+
+
